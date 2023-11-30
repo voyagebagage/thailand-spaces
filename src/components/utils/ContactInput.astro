@@ -1,20 +1,23 @@
 ---
 interface Props {
-	id: string;
-	placeholder: string;
-	label: string;
-	type?: string;
+  id: string;
+  placeholder: string;
+  label: string;
+  type?: string;
+  required?: boolean;
+  name: string;
 }
-const { id, label, placeholder, type = "text" } = Astro.props;
+const { id, label, placeholder, type = "text", required, name } = Astro.props;
 ---
 
 <label class="flex flex-col gap-2" for={id}>
-	<span class="opacity-80">{label}</span>
-	<input
-        class="border-neutral-600 bg-transparent pb-2 outline-none border-b-[1px] placeholder:uppercase placeholder:opacity-50 focus:text-opacity-100 focus:border-neutral-300"
-		id={id}
-		type={type}
-		type="text"
-		placeholder={placeholder}
-	/>
+  <span class="opacity-80">{label}</span>
+  <input
+    class="border-neutral-600 bg-transparent pb-2 outline-none border-b-[1px] placeholder:uppercase placeholder:opacity-50 focus:text-opacity-100 focus:border-neutral-300"
+    id={id}
+    type={type}
+    name={name}
+    required={required}
+    placeholder={placeholder}
+  />
 </label>

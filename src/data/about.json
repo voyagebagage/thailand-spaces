@@ -1,22 +1,19 @@
 [
 	{
 		"title": "residential",
-		"description": "provide a full engaging experience in building information modelling. we have embraced this technology with the aim of streamlining our production process"
+		"description": "provide a full engaging experience for your next rentals. your clients will be able to plan this more easily in your villa"
 	},
 	{
-		"title": "bussines",
-		"description": "provide a full engaging experience in building information modelling. we have embraced this technology with the aim of streamlining our production process"
+		"title": "bussinesses",
+		"description": "engage more leads/ customers to your buisness, with a full immersion of your place."
 	},
     {
 		"title": "hospitality",
 		"description": "provide a full engaging experience in building information modelling. we have embraced this technology with the aim of streamlining our production process"
 	},
     {
-		"title": "industrial",
-		"description": "provide a full engaging experience in building information modelling. we have embraced this technology with the aim of streamlining our production process"
-	},
-    {
-		"title": "educational",
+		"title": "Schools",
 		"description": "provide a full engaging experience in building information modelling. we have embraced this technology with the aim of streamlining our production process"
 	}
 ]
+

@@ -1,0 +1,18 @@
+---
+// const hardCodedId = 1020345;
+export function getStaticPaths() {
+  return [{ params: { hardCodedId: "1020345" } }];
+}
+
+const { hardCodedId } = Astro.params;
+console.log(hardCodedId);
+---
+
+<html>
+  <head>
+    <!-- <title>{title}</title> -->
+  </head>
+  <body>
+    <h1>{hardCodedId}</h1>
+  </body>
+</html>
